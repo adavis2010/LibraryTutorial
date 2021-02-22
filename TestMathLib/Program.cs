@@ -6,6 +6,9 @@ namespace TestMathLib {
         static void Main(string[] args) {
             //create instance of Math Library
 
+            
+            "This is a test".Print();
+
             //extension method using two parameters
             Console.WriteLine($"2 ^ 3 {2.Power(3)}");
 
