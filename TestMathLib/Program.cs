@@ -4,9 +4,7 @@ using LibraryTutorial;
 namespace TestMathLib {
     class Program {
         static void Main(string[] args) {
-            //create instance of Math Library
-
-            
+             //extension method for Console WriteLine
             "This is a test".Print();
 
             //extension method using two parameters
@@ -15,6 +13,7 @@ namespace TestMathLib {
             //using extension method First thing we did 
             Console.WriteLine($"3 squared is {3.Squared()}");
 
+            //create instance of Math Library
             var mathLib = new MathLib();
 
             //confirming connection with console app and library
